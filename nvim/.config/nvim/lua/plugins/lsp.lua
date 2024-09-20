@@ -43,6 +43,7 @@ return {
         -- LSP
         {
             'neovim/nvim-lspconfig',
+            'MunifTanjim/prettier.nvim',
             cmd = {'LspInfo', 'LspInstall', 'LspStart'},
             event = {'BufReadPre', 'BufNewFile'},
             dependencies = {
